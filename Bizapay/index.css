@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* Nav styling start ------  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.5rem;
+}
+.logo {
+  width: 15rem;
+}
+.nav_card {
+  width: 30rem;
+}
+
+/* Nav styling end ----------  */
+
+/* Hero section start -------  */
+.hero_section {
+  display: flex;
+  gap: 1rem;
+  padding: 0 4rem;
+  margin-top: -7rem;
+}
+.hero_section .hero_left {
+  /* border: 1px solid blue; */
+  flex-basis: 70%;
+}
+.hero_section .hero_right {
+  /* border: 2px solid red; */
+  flex-basis: 30%;
+  margin-top: 7rem;
+}
+.hero_section .hero_left > h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.ecom_blue {
+  color: #407bff;
+}
+.para {
+  font-size: 2.3rem;
+  color: #4a4a4a;
+  margin-top: 1rem;
+}
+/* input box whatsapp start ----------------  */
+
+.input_hero {
+  margin-top: 4rem;
+}
+.input_whatsapp {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 2rem;
+  width: 75rem;
+  margin-left: 4rem;
+  background: linear-gradient(180deg, #000000 0%, rgba(217, 217, 217, 0) 100%);
+}
+.input_box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 47rem;
+  border-radius: 1rem;
+}
+.input_country_code {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #8c8c8c;
+  border-right: 1px solid #8c8c8c;
+  padding: 0 0.7rem;
+}
+.input_box_number {
+  width: 38rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  /* text-indent: 20px; */
+}
+input::placeholder {
+  color: #8c8c8c;
+  padding-left: 1rem;
+}
+.hero_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #407bff;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  margin-right: 5rem;
+}
+.hero_btn > .join_waitlist {
+  margin-right: 1rem;
+}
+.join_community {
+  color: #636363;
+  text-align: end;
+  font-weight: 300;
+  padding-right: 8.8rem;
+}
+/* input box whatsapp end ------------  */
+/* Hero section end ---------  */
+.herosection_below {
+  color: #878787;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* outstanding section start from here -----------  */
+.outstanding_section {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0 10rem;
+
+  margin: 5rem 0;
+  gap: 10rem;
+}
+.svg_outstanding {
+}
+.outstanding_heading {
+  color: #407bff;
+  font-weight: 700;
+  margin-top: 3rem;
+  font-size: 2.7rem;
+}
+.outstanding_para {
+  color: #878787;
+  font-size: 1.7rem;
+  margin-top: 3rem;
+}
+
+/* outstanding section end -----------  */
+
+/* break down section start ---------  */
+.breakdown_section {
+  padding: 0 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.credit-card {
+  width: 35rem;
+}
+.breakdown_section_right > h3 {
+  color: #407bff;
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+.breakdown_section_right {
+  flex-basis: 60%;
+}
+.breakdown_section_right > p {
+  color: #878787;
+  font-size: 1.7rem;
+  margin-top: 3rem;
+}
+/* break down section end --------  */
+
+/* vendor details section start ----------  */
+.vendor_details {
+  display: flex;
+  justify-content: end;
+  margin-right: 2rem;
+}
+/* vendor detials section end -----  */
+
+/* cash flow start ----------  */
+.cash_flow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7rem;
+}
+.cash_flow_png {
+  width: 45rem;
+}
+.cash_flow_details {
+  margin-left: 4rem;
+}
+.cash_flow_details > h4 {
+  font-size: 2.7rem;
+  margin-top: 1.5rem;
+  color: #407bff;
+  font-weight: 700;
+}
+.cash_flow_details > p {
+  color: #878787;
+  font-size: 1.7rem;
+  margin-top: 3rem;
+}
+
+/* cash flow end ---------- */
+/* get started section start --------  */
+.get_started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #215ce1 0.26%, #a8adb9 100%);
+
+  padding: 5rem 0;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.get_started_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.get_started_heading {
+  font-size: 6rem;
+  font-weight: 500;
+  color: #fff;
+}
+.get_started_para {
+  text-align: center;
+  width: 50%;
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+.input_box2 {
+  display: flex;
+  padding: 0.2rem;
+  width: 48rem;
+
+  background-color: white;
+  border: 1px solid #2abadb;
+  border-radius: 1rem;
+}
+.getstarted_btn {
+  padding: 0 0.6rem;
+  background-color: #407bff;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+.input_box_number2 {
+  outline: none;
+  width: 25rem;
+  border: none;
+  text-indent: 0.5rem;
+}
+.join_waitlist2 {
+  padding: 0;
+  margin-right: 0.2rem;
+}
+.input_country_code2 {
+  margin-top: 0.5rem;
+}
+/* get started section end -----------  */
+
+/* footer section start ----------  */
+footer {
+  padding: 2rem;
+}
+footer > p {
+  color: #000000;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+hr {
+  border-color: #000;
+}
+/* footer section end --------  */
+
+/* media query start here ----------  */
+@media (min-width: 320px) and (max-width: 425px) {
+  /* nav styling start ---------  */
+  nav {
+    padding: 1.3rem;
+  }
+  .logo {
+    width: 10rem;
+  }
+  .nav_credit_card {
+    width: 9rem;
+  }
+  /* nav stylind end here ----------  */
+  /* hero section start from here -----  */
+  /* Hero section start -------  */
+  .hero_section {
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem;
+
+    margin-top: 0;
+    text-align: center;
+    gap: 0;
+  }
+  .hero_section .hero_left {
+    flex-basis: 100%;
+    padding: 2rem;
+  }
+  .hero_section .hero_right {
+    flex-basis: 100%;
+  }
+  .hero_section .hero_left > h1 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .ecom_blue {
+    color: #407bff;
+  }
+  .para {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  /* input box whatsapp start ----------------  */
+
+  .input_hero {
+    margin-top: 4rem;
+  }
+  .input_whatsapp {
+    width: 27rem;
+    border: 1px solid red;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .input_box {
+    width: 24rem;
+    border: 1px solid blue !important;
+    padding: 0;
+  }
+  .input_country_code {
+    font-size: 1rem;
+    padding: 0 0;
+
+    margin-left: 1rem;
+  }
+  .input_box_number {
+    width: 16rem;
+    text-indent: 0px;
+
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid pink; */
+  }
+  input::placeholder::after {
+    content: "hello";
+  }
+  input::placeholder {
+    font-size: 0.9rem;
+  }
+  .svg_whatsapp {
+    width: 5rem;
+    padding: 0;
+    margin-left: -5px;
+  }
+  .hero_btn {
+    margin-right: 0;
+    margin-top: 1rem;
+  }
+  .hero_btn > .join_waitlist {
+    margin-right: 1rem;
+  }
+  .join_community {
+    text-align: center;
+    padding: 0;
+    /* padding-right: 8.8rem; */
+  }
+
+  /* input box whatsapp end ------------  */
+  .hero_section .hero_right {
+    border: 1px solid red;
+    margin: 0;
+    width: 80%;
+  }
+  .hero_svg {
+    width: 23rem;
+    padding: 0;
+  }
+  /* hero section end here ---------  */
+  .herosection_below {
+    margin-left: 3.2rem;
+    margin-top: 4rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #878787;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  /* outstanding section start -----------  */
+
+  .outstanding_section {
+    flex-direction: column;
+    padding: 1.3rem;
+    gap: 2rem;
+  }
+
+  .outstanding_heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .outstanding_para {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .outstanding_svg {
+    width: 24rem;
+    margin-left: 3rem;
+    border: 1px solid red;
+  }
+  /* outstanding section end here
+} */
+
+  /* break down section start ---------  */
+  .breakdown_section {
+    padding: 1.3rem;
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .credit-card {
+    width: 25rem;
+    border: 1px solid red;
+  }
+  .breakdown_section_right > h3 {
+    font-size: 2.7rem;
+
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .breakdown_section_right > p {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  /* break down section end --------  */
+
+  /* vendor details section start ----  */
+  .vendor_details {
+    align-items: center;
+
+    height: 12rem;
+    padding: 0;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  /* vendor section start end ----  */
+  /* cash flow start ----------  */
+  .cash_flow {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cash_flow_png {
+    width: 25rem;
+  }
+  .cash_flow_details {
+    margin-left: 4rem;
+  }
+  .cash_flow_details > h4 {
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 4rem;
+    border: 1px solid red;
+  }
+  .cash_flow_details > p {
+    font-size: 1.4rem;
+    margin-right: 4rem;
+    text-align: center;
+  }
+
+  /* cash flow end ---------- */
+  /* get started section start --------  */
+
+  .get_started_heading {
+    font-size: 3rem;
+  }
+  .get_started_para {
+    font-size: 1rem;
+  }
+  .input_box2 {
+    width: 26rem;
+    position: relative;
+  }
+  .getstarted_btn {
+    padding: 0 0.6rem;
+    background-color: #407bff;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 7rem;
+    top: 5rem;
+  }
+  .input_box_number2 {
+    width: 25rem;
+  }
+
+  .input_country_code2 {
+    margin-top: 0.9rem;
+    padding: 0.2rem;
+  }
+  /* get started section end -----------  */
+  footer {
+    padding: 1.3rem;
+  }
+  footer > p {
+    font-size: 0.8rem;
+  }
+  /* media query end here -------------  */
+}
